@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script src="js/index.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKAN NAMES</title>
@@ -14,8 +14,9 @@
     <p>The akan naming system was put forth to help the whole community at large. The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
         The Akan naming system enables the user to type in their valid dates of birth, month, gender and finally year to enable them to know their akan names. 
     </p>
-  <div class="system" id="akan">
-      <form>
+  <div class="system"></div> 
+  <div id="akan">
+    <form>
         <label for="Day">Day:</label>
           <input class="inp" type="text" id="day"><br>
         <label for="Month">Month: </label>
@@ -31,6 +32,7 @@
           <input class=" btn mt-2" type="submit" value="Reset" onclick="this.form.reset();" >
          <a href="#result"><input class=" btn mt-2 ml-2" type="submit" onclick="akaned();" value="Submit" id="subbtn"></a>
       </form>
+  </div>
     <div class="res">
       <p class=" Answer" id="form">Fill the form and see your Akan Name:</p>
       <h1 class=" m-0 text-capitalize text-center" id="result"></h1>
