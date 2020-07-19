@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKAN NAMES</title>
 </head>
-<h1>AKAN NAMES</h1>
-
 <body>
-    
+    <h1>AKAN NAMING SYSTEM</h1>
+<div class="container py-2">
+  <div class="intro text-center bg-light">
+    <h1 id="intro">Akan Names</h1>
+    <p class=" text-justify"> The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+  </div>
+  <div class="calc bg-info" id="akan">
+    <div class="righty">
+      <form class="m-2" id="form">
+        <label class="space">Day: </label>
+          <input class="inp" type="text" id="day" placeholder="day"><br>
+        <label class="space">Month: </label>
+          <input class="inp" type="text" id="month" placeholder="month"><br>
+        <label class="space">Year: </label>
+          <input class="inp" type="text" id="year" placeholder="year e.g 1999"><br>
+        <label class="space">Gender: </label>
+        <select class="selekta" id="gender">
+          <option value="selectdefault">Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select><br>
+          <input class=" btn mt-2" type="submit" value="Reset" onclick="this.form.reset();" >
+         <a href="#result"><input class=" btn mt-2 ml-2" type="submit" onclick="akaned();" value="Submit" id="subbtn"></a>
+      </form>
+    <div class="res">
+      <p class=" font-weight-bold" id="resultintro">Fill the form and see your Akan Name:</p>
+      <h1 class=" m-0 text-capitalize text-center" id="result"></h1>
+    </div>
+    </div>
+    <div class="lefty text-center">
+      <table class=" table table-bordered table-hover bg-light text-center ml-auto mr-auto my-0" id="names">
+        <caption class="bg-light text-dark text-center font-weight-bold">
+          <em>Days of the week male and female Akan names.</em>
+        </caption>
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Day Of the Week</th>
+            <th scope="col">Female</th>
+            <th scope="col">Male</th>
+              </tr>
+        </thead>
+        <tbody>
+          <!--Sunday Names row-->
+          <tr>
+            <td>Sunday</td>
+            <td>Akosua</td>
+            <td>Kwasi</td>
+          </tr>
+          <!--Monday Names row-->
+          <tr>
+            <td>Monday</td>
+            <td>Adwoa</td>
+            <td>Kwadwo</td>
+          </tr>
+          <!--Tusday Names row-->
+          <tr>
+            <td>Tuesday</td>
+            <td>Abenaa</td>
+            <td>Kwabena</td>
+          </tr>
+          <!--Wednesday Names row-->
+          <tr>
+            <td>Wednesday</td>
+            <td>Akua</td>
+            <td>Kwaku</td>
+          </tr>
+          <!--Thursday Names row-->
+          <tr>
+            <td>Thursday</td>
+            <td>Yaa</td>
+            <td>Yaw</td>
+          </tr>
+          <!--Friday Names row-->
+          <tr>
+            <td>Friday</td>
+            <td>Afua</td>
+            <td>Kofi</td>
+          </tr>
+          <!--Saturday Names row-->
+          <tr>
+            <td>Saturday</td>
+            <td>Ama</td>
+            <td>Kwame</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </div>
+</div>
 </body>
 </html>
