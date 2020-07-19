@@ -1,6 +1,9 @@
 body {
     background-color:bisque;
 }
+.container{
+    font-size: medium;
+}
 table,td,th{
     padding:15px ;
     font-size: larger;
@@ -15,8 +18,12 @@ th{
 }
 #akan{
     line-height: 300%;
+    font-size: medium;
 }
 h1{
-    color: burlywood;
+    color: #b66f12;
     text-align: center;
+}
+p{
+    font-size: medium;
 }
