@@ -2,8 +2,8 @@ body {
     background-color:bisque;
 }
 .table{
-    border:1px solid black;
     padding:15px ;
+    font-size: larger;
 }
 #akan{
     line-height: 500%;
