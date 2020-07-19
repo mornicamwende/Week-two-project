@@ -1,10 +1,22 @@
 body {
     background-color:bisque;
 }
-.table{
+table,td,th{
     padding:15px ;
     font-size: larger;
+    border: 1px solid black;
+    
+}
+table{
+    width:100%;
+}
+th{
+    height: 50px;
 }
 #akan{
-    line-height: 500%;
+    line-height: 300%;
+}
+h1{
+    color: burlywood;
+    text-align: center;
 }
