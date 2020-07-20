@@ -1,4 +1,4 @@
-function akaned(){
+function daychecker(){
     event.preventDefault();
     var dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     var maleAkanName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
@@ -10,9 +10,9 @@ function akaned(){
     var date = new Date(year +"/" + month + "/"+day);
     var actualBirthDay = date.getDay();
     var akanDay = dayOfWeek[actualBirthDay];
-    var invalidMonth = ( month<1 || month>12 || ((document.getElementById("month").value)=="") );
-    var invalidDay = ( day<1 || day>31 || ((document.getElementById("day").value)=="") );
-    var invalidYear = (  year<1 || ( year>( new Date().getFullYear() ) ) || ((document.getElementById("year").value)=="") );
+    var invalidMonth = ( month<1 || month>12 || ((document.getElementById("m").value)=="") );
+    var invalidDay = ( day<1 || day>31 || ((document.getElementById("d").value)=="") );
+    var invalidYear = (  year<1 || ( year>( new Date().getFullYear() ) ) || ((document.getElementById("y").value)=="") );
     var invalidGender = ( (gender=="selectdefault") );
     var invalidAll = ((invalidDay==true)&&(invalidMonth==true)&&(invalidYear==true)&&(invalidGender==true));
     var validFemale = ((invalidDay==false)&&(invalidMonth==false)&&(invalidYear==false)&&(gender==="Female"));
