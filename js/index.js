@@ -5,7 +5,7 @@ function akaned(){
     var femaleAkanName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     var day = parseInt(document.getElementById("d").value);
     var month = parseInt(document.getElementById("m").value);
-    var year = document.getElementById("year").value;
+    var year = document.getElementById("y").value;
     var gender = document.getElementById("gender").value;
     var date = new Date(year +"/" + month + "/"+day);
     var actualBirthDay = date.getDay();
