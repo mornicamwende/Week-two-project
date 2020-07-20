@@ -3,7 +3,7 @@ function akaned(){
     var dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     var maleAkanName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
     var femaleAkanName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
-    var day = parseInt(document.getElementById("day").value);
+    var day = parseInt(document.getElementById("d").value);
     var month = parseInt(document.getElementById("month").value);
     var year = document.getElementById("year").value;
     var gender = document.getElementById("gender").value;
